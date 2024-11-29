@@ -3,5 +3,6 @@
   "dest": "../../dist/is",
   "lib": {
     "entryFile": "src/public-api.ts"
-  }
+  },
+  "keepLifecycleScripts": true
 }
