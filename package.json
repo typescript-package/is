@@ -12,7 +12,11 @@
     "@typescript-package/core": "^1.0.0",
     "@typescript-package/type": "^1.0.0"
   },
-  "scripts": {},
+  "scripts": {
+    "prepublishOnly": "npm run pkg && npm run clean",
+    "pkg": "npm pkg delete dependencies",
+    "clean": "npm pkg delete scripts"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/typescript-package/is.git"
