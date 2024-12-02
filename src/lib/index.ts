@@ -1,3 +1,4 @@
+// Functions.
 export { isArray } from './is-array.func';
 export { isBigInt } from './is-big-int.func';
 export { isBoolean } from './is-boolean.func';
@@ -35,3 +36,6 @@ export { isSymbol } from './is-symbol.func';
 export { isTrue } from './is-true.func';
 export { isType } from './is-type.func';
 export { isUndefined } from './is-undefined.func';
+
+// Object.
+export { is } from './is.object';
