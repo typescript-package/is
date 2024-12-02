@@ -8,6 +8,9 @@
     "access": "public",
     "registry": "https://registry.npmjs.org"
   },
+  "devDependencies": {
+    "@angular-package/testing": "^2.0.0-rc"
+  },
   "peerDependencies": {
     "@typescript-package/core": "^1.0.0",
     "@typescript-package/type": "^1.0.0"
@@ -34,8 +37,5 @@
       "url": "https://checkout.revolut.com/pay/048b10a3-0e10-42c8-a917-e3e9cb4c8e29"
     }
   ],
-  "sideEffects": false,
-  "devDependencies": {
-    "@angular-package/testing": "^2.0.0-rc"
-  }
+  "sideEffects": false
 }
