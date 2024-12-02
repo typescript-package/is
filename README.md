@@ -2,7 +2,7 @@
   <img
     src="https://raw.githubusercontent.com/typescript-package/core/refs/heads/main/ts-package-barcode-logo-512.png"
     width="20%"
-    title="@typescript-package/type"
+    title="@typescript-package/is"
   />
 </a>
 
@@ -36,6 +36,10 @@ npm install @typescript-package/is
 
 ```typescript
 import {
+  // `is` object.
+  is,
+
+  // Prefixed `is` functions.
   isArray,
   isBigInt,
   isBoolean,
@@ -72,6 +76,19 @@ import {
   isTrue,
   isType,
   isUndefined,
+
+  // `isNot` object.
+  isNot,
+
+  // Prefixed `isNot` functions.
+  isNotBoolean,
+  isNotDefined,
+  isNotFunction,
+  isNotNull,
+  isNotNumber,
+  isNotString,
+  isNotUndefined
+
 } from '@typescript-package/is';
 ```
 
